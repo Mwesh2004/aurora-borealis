@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "Aurora Borealis Theme",
+  "version": "1.0",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_ntp_background": "images/background.png",
+      "theme_frame_inactive": "images/frame.png",
+      "theme_tab_background": "images/frame.png"
+    },
+    "colors": {
+      "frame": [3, 30, 36],
+      "frame_inactive": [0, 15, 25],
+      "toolbar": [0, 45, 60],
+      "tab_text": [255, 255, 255],
+      "tab_background_text": [255, 255, 255],
+      "bookmark_text": [255, 255, 255],
+      "ntp_background": [0, 20, 30],
+      "ntp_text": [180, 255, 245],
+      "ntp_link": [45, 212, 191],
+      "ntp_header": [0, 30, 40],
+      "control_background": [0, 45, 60]
+    },
+    "tints": {
+      "buttons": [0.65, 0.6, 0.8],
+      "background_tab": [0.65, 0.5, 0.2],
+      "frame": [0.65, 0.5, 0.65]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat",
+      "ntp_logo_alternate": 1
+    }
+  }
+}
